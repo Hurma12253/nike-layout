@@ -1,0 +1,41 @@
+.button {
+    color: $primary-color;
+    font-family: $secondary-font;
+    font-size: 16px;
+
+    &-size {
+        background-color: transparent;
+        border: 1px solid $placeholder-color;
+        height: 48px;
+        width: 48px;
+    }
+
+    &-color {
+        border: 0;
+        border-radius: 50%;
+        box-shadow: none;
+        height: 48px;
+        outline: none;
+        width: 48px;
+    }
+
+    &-brown {
+        background-color: $brown-select-color;
+    }
+
+    &-black {
+        background-color: $black-select-color;
+    }
+
+    &-blue {
+        background-color: $blue-select-color;
+    }
+
+    &-yellow {
+        background-color: $yellow-select-color;
+    }
+
+    &-white {
+        background-color: $white-select-color;
+    }
+}

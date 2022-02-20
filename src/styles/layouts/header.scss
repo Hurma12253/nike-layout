@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+
+    &__nav {
+        align-items: center;
+        display: flex;
+    }
+
+    &__nav-item {
+        color: $primary-color;
+        font-family: $main-font;
+        font-size: 24px;
+        font-weight: bold;
+        margin-right: 80px;
+        text-transform: uppercase;
+    }
+
+    &__user-actions {
+        align-items: center;
+        display: flex;
+    }
+
+    .user-actions {
+        align-items: center;
+        display: flex;
+
+        &__item {
+            margin-right: 36px;
+        }
+    }
+}

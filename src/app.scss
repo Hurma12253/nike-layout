@@ -2,9 +2,7 @@
 @import 'styles/utils/mixins';
 @import 'styles/base/fonts';
 @import 'styles/base/reset';
-
-.kek {
-    color: #000;
-    font-family: TradeGothicLT, sans-serif;
-    font-size: 72px;
-}
+@import 'styles/layouts/container';
+@import 'styles/layouts/header';
+@import 'styles/components/button';
+@import 'styles/components/content';

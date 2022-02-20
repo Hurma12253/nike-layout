@@ -1,0 +1,37 @@
+.content {
+    padding-top: 160px;
+
+    .product {
+        display: grid;
+        grid-template-columns: max-content 1fr max-content;
+
+        &__params {
+            grid-column: 3/4;
+        }
+
+        &__params-size {
+            margin-bottom: 48px;
+        }
+
+        .params-title {
+            font-family: $main-font;
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 28px;
+            text-transform: uppercase;
+        }
+
+        .params-size-options {
+            display: grid;
+            gap: 20px;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: 1fr 1fr;
+        }
+
+        .params-color-options {
+            column-gap: 20px;
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+        }
+    }
+}

@@ -11,5 +11,6 @@ module.exports = {
             { ignore: ['blockless-at-rules', 'pseudo-classes'] },
         ],
         indentation: 4,
+        'color-function-notation': 'legacy',
     },
 }
