@@ -10,6 +10,6 @@ module.exports = {
             5,
             { ignore: ['blockless-at-rules', 'pseudo-classes'] },
         ],
-        indentation: false,
+        indentation: 4,
     },
 }

@@ -15,7 +15,7 @@
     "build": "npx webpack --config ./webpack/webpack.config.prod.js",
     "start": "npx webpack serve --config ./webpack/webpack.config.dev.js",
     "prettify": "prettier --write \"{src,__{tests,mocks}__}/**/*.js\"",
-      "lint:fix": "eslint src/**/*.scss --ignore-pattern node_modules/ --fix"
+      "lint:fix": "stylelint src/**/*.scss --ignore-pattern node_modules/ --fix"
   },
   "license": "MIT",
   "devDependencies": {

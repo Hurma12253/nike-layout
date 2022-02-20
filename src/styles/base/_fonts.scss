@@ -1,3 +1,13 @@
-.some-fonts {
-    color: transparent;
+@font-face {
+    font-family: TradeGothicLT;
+    font-style: normal;
+    font-weight: bold;
+    src: url('/assets/fonts/TradeGothicLTBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: HelveticaNeue;
+    font-style: normal;
+    font-weight: medium;
+    src: url('/assets/fonts/HelveticaNeue.ttf') format('truetype');
 }
